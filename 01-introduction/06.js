@@ -1,4 +1,4 @@
-function dayOfWeek(dayNum) {
+function reverseDayOfWeek(day) {
     var Days;
     (function (Days) {
         Days[Days["Monday"] = 1] = "Monday";
@@ -7,6 +7,8 @@ function dayOfWeek(dayNum) {
         Days[Days["Thursday"] = 4] = "Thursday";
         Days[Days["Friday"] = 5] = "Friday";
     })(Days || (Days = {}));
-    console.log(Days || 'errorrr');
+    console.log(Days[day] || 'error');
 }
-dayOfWeek('Monday');
+reverseDayOfWeek('Monday');
+reverseDayOfWeek('Friday');
+reverseDayOfWeek('Invalid');
