@@ -4,3 +4,5 @@ function formatP(params:[string, number]) : string {
 }
 
 console.log(formatP(['Dimi', 38]));
+
+// Output: 'Hello, my name is Dimi and my age is 38'

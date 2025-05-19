@@ -12,3 +12,5 @@ function dayOfWeek(dayNum: number): void {
 }
 
 dayOfWeek(5)
+
+// Output: 'Friday'

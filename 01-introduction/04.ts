@@ -6,3 +6,5 @@ function convertArr(arr: string[]): [string, number] {
 }
 
 console.log(convertArr(['How', 'are', 'you?']));
+
+// Output: ['Howareyou?', 10]

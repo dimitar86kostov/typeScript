@@ -14,3 +14,8 @@ function reverseDayOfWeek(day: string): void {
 reverseDayOfWeek('Monday')
 reverseDayOfWeek('Friday')
 reverseDayOfWeek('Invalid')
+
+// Output:
+// 1
+// 5
+// 'Invalid'

@@ -1,30 +1,28 @@
-// {
-//     "version": "0.2.0",
-//     "configurations": [
-//         {
-//             "type": "node",
-//             "request": "launch",
-//             "name": "Launch Program",
-//             "skipFiles": [
-//                 "<node_internals>/**"
-//             ],
-//             "program": "${workspaceFolder}\\01-introduction\\01-evenSum.ts",
-//             "outFiles": [
-//                 "${workspaceFolder}/**/*.js"
-//             ]
-//         }
-//     ]
-// }
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Run TypeScript",
-      "preLaunchTask": "tsc: build - tsconfig.json",
-      "program": "${workspaceFolder}/01-introduction/01-evenSum.ts",
-      "outFiles": ["${workspaceFolder}/**/*.js"]
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/${fileBasename}",  // Run the currently opened file
+            "preLaunchTask": "tsc: build - tsconfig.json",  // Transpile the files
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js" // Look for the transpiled files in /out dir
+            ]
+        }
+    ]
 }
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "type": "node",
+//       "request": "launch",
+//       "name": "Run TypeScript",
+//       "preLaunchTask": "tsc: build - tsconfig.json",
+//       "program": "${workspaceFolder}/01-introduction/01-evenSum.ts",
+//       "outFiles": ["${workspaceFolder}/**/*.js"]
+//     }
+//   ]
+// }

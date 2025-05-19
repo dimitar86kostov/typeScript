@@ -1,14 +1,34 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "rootDir": "./",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    /* Language and Environment */
+    "target": "ES6",                          
+    "module": "CommonJS",                     
+    "lib": ["ES2020", "DOM"],                          
+    "allowJs": false,                         
+    "strict": true,                           
+
+    /* Output Settings */
+    "outDir": "./dist",                       
+    "rootDir": "./",                          
+
+    /* Module Resolution */
+    "esModuleInterop": true,                  
+    "forceConsistentCasingInFileNames": true, 
+    "moduleResolution": "node",               
+
+    /* Other Settings */
+    "skipLibCheck": true                      
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
 
+// {
+//   "compilerOptions" : {
+//       "target": "esnext",  // ECMAScript target version
+//       "module": "esnext",  // module code generation
+//       "sourceMap": true,   // Generates corresponding .map file
+//       "strict": true,      // strict type-checking options
+//       "outDir": "out",     // redirect output to the directory.
+//     }
+// }

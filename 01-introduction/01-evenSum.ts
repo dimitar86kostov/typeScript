@@ -5,3 +5,6 @@ function evenSum(num1: number, num2: number, num3: number): boolean {
 }
 
 console.log(evenSum(1,2,3));
+
+
+// Output: True
