@@ -13,3 +13,8 @@ function reverseDayOfWeek(day) {
 reverseDayOfWeek('Monday');
 reverseDayOfWeek('Friday');
 reverseDayOfWeek('Invalid');
+// Output:
+// 1
+// 5
+// 'Invalid'
+//# sourceMappingURL=06.js.map

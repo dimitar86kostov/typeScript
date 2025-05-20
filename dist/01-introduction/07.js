@@ -7,3 +7,7 @@ function unknownResponse(params) {
 }
 console.log(unknownResponse({ code: 301, text: 'Moved Permanently', value: 'New Url' }));
 console.log(unknownResponse({ code: 200, text: 'Ok', value: [1, 2, 3] }));
+// Output: 
+// 'New Url'
+// '-'
+//# sourceMappingURL=07.js.map

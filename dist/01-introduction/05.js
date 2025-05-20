@@ -24,3 +24,4 @@ function summarizePerson(id, fName, lName, age, midName, hobbies, workInfo) {
     return [id, name, age, hobbiesResult, work];
 }
 console.log(summarizePerson(12, 'Eliot', 'Des', 20, 'Braylen', ['tennis', 'football', 'hiking'], ['Sales Consultant', 2500]));
+//# sourceMappingURL=05.js.map

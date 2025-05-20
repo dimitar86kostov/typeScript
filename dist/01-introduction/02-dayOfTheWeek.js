@@ -11,3 +11,5 @@ function dayOfWeek(dayNum) {
     console.log(Days[dayNum] || 'error');
 }
 dayOfWeek(5);
+// Output: 'Friday'
+//# sourceMappingURL=02-dayOfTheWeek.js.map
