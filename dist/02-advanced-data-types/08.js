@@ -23,8 +23,11 @@ let task2 = {
     status: 'Done',
     title: 'Test',
     daysRequired: 12,
-    assignedTo: undefined, changeStatus(newStatus) { this.status = newStatus; }, moreProps: 300, evenMore: 'wow'
+    assignedTo: undefined,
+    changeStatus(newStatus) { this.status = newStatus; },
+    moreProps: 300,
+    evenMore: 'wow'
 };
-assignTask(user, task1);
-assignTask(user, task2);
+// assignTask(user, task1); 
+// assignTask(user, task2);
 //# sourceMappingURL=08.js.map
