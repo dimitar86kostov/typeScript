@@ -61,7 +61,10 @@ title: 'Test',
 
 daysRequired: 12,
 
-assignedTo: undefined, changeStatus(newStatus: StatusTask) { this.status = newStatus; }, moreProps: 300, evenMore: 'wow' } 
+assignedTo: undefined, 
+changeStatus(newStatus: StatusTask) { this.status = newStatus; }, 
+moreProps: 300, 
+evenMore: 'wow' } 
 
-assignTask(user, task1); 
-assignTask(user, task2);
+// assignTask(user, task1); 
+// assignTask(user, task2);
