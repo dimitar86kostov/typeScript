@@ -1,9 +1,13 @@
-function classDeco(constructor: Function) {
-    
-    
+function classDeco(constructor: { new(...args: any[]): User1 }) {
+
+
+    return class extends constructor {
+        createdOn = new Date();
+    }
 
 }
 
+@classDeco
 class User1 {
     name: string;
     age: number;
