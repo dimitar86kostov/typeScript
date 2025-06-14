@@ -1,0 +1,1 @@
+{"version":3,"file":"zebra.js","sourceRoot":"","sources":["../../contracts/zebra.ts"],"names":[],"mappings":";;;AAEA,MAAa,KAAK;IACE,KAAK,GAAgB,IAAI,GAAG,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC;IAE1D,gBAAgB,CAAC,IAAY;QACzB,OAAO,IAAI,CAAC,KAAK,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC;IAChC,CAAC;CACJ;AAND,sBAMC"}
